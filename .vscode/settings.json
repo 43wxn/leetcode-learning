@@ -70,5 +70,7 @@
         "typeindex": "cpp",
         "typeinfo": "cpp",
         "variant": "cpp"
-    }
+    },
+
+    "python.defaultInterpreterPath": "/usr/bin/python3"
 }
