@@ -24,3 +24,17 @@ leetcode学习算法的代码
     若 if(nums[left]<target) else......那么维护left及其左边全是小于target，right及其右边可能大于等于target，则返回right。
 
     例题：查找左边界;精准查找
+
+
+    python 中二分查找的模块是bisect
+    Python的 bisect 函数对比：
+        bisect_left(arr, x): 第一个 >= x 的元素位置
+        bisect_right(arr, x): 第一个 > x 的元素位置
+        bisect(arr, x): 同 bisect_right
+
+    C++中二分查找的函数 包含在algorithm头文件中 
+    C++的二分查找函数：
+        lower_bound(first, last, value): 第一个 >= value 的元素迭代器
+        upper_bound(first, last, value): 第一个 > value 的元素迭代器
+        binary_search(first, last, value): 检查value是否存在
+    
